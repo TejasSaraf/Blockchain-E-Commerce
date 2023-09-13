@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "MaisonNeueBook";
+    src: url('./assets/Fonts/Maison-Neue-Book.ttf');
+}
+
+@font-face {
+    font-family: "MaisonNeueMonoBold";
+    src: url('./assets/Fonts/MaisonNeueMono-Bold.otf');
+}
+
+@font-face {
+    font-family: "MaisonNeueExtended";
+    src: url('./assets/Fonts/MaisonNeueExtended-Medium.otf');
+}
+
+@font-face {
+    font-family: "MaisonNeueExtendedDemi";
+    src: url('./assets/Fonts/MaisonNeueExtended-Demi.otf');
+}
+
+@font-face {
+    font-family: "MaisonNeueMonoRegular";
+    src: url('./assets/Fonts/MaisonNeueMono-Regular.otf');
+}
+
+body {
+    font-family: "MaisonNeueBook";
+    position: relative;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.Logo {
+    letter-spacing: 5px;
+}
+
+.categories-heading {
+    letter-spacing: 3px;
+}
+
+.form-button {
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.forgot-password {
+    letter-spacing: 1px;
+}
+
+form input {
+    letter-spacing: 2px;
+}
+
+/* remove the input number type arrows and unwanted spinners */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+h1 {
+    font-family: "MaisonNeueExtendedDemi";
+}
+
+.MaisonNeueMonoRegular {
+    font-family: "MaisonNeueMonoRegular" !important;
+}
+
+.MaisonNeueMonoBold{
+    font-family: "MaisonNeueMonoBold";
+}
+
+.season-description {
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+
+.poster {
+    position: fixed;
+    top: 70%;
+}
+
+.email-input::placeholder{
+    opacity: 1;
+    color: black;
+    letter-spacing: 1.5px;
+}
+
+.email-input{
+    border: 1px solid black;
+    letter-spacing: 1px;
+}
+
+.black-border{
+    border: 1px solid black;
+}
+
+.top-border{
+    border-top: 1.6px solid black;
+}
+
+.top-border-thin{
+    border-top: 1.2px solid black;
+}
+
+
+label{
+    letter-spacing: 1px;
+}
+
+.footer-title{
+    letter-spacing: 45px;
+    text-align: center;
+}
+
+.letter-spacing-5px{
+    letter-spacing: 2px;
+}
+
+.react-tabs__tab--selected{
+    border-radius: 0px !important;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollBar::-webkit-scrollbar{
+    display: none;
+}
+
+.cart-item-container{
+    height:62vh;
+}
